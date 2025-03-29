@@ -7,10 +7,10 @@ import TypeWriter from '../components/TypeWriter';
 const Home = () => {
   const navigate = useNavigate();
   const skills = [
-    'Full Stack Developer',
     'AI & ML Engineer',
-    'Cloud Architect',
-    'Problem Solver'
+    'AI Generalist',
+    'Vibe coder',
+    'MERN Stack Developer',
   ];
 
   const [isLoaded, setIsLoaded] = useState(false);
@@ -68,7 +68,7 @@ const Home = () => {
               isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'
             }`}>
               Hi, I'm{' '}
-              <span className="text-green-400 block mt-2">John Doe</span>
+              <span className="text-green-400 block mt-2">A P Bhargav Ravi Teja</span>
             </h1>
             <div className={`h-8 md:h-12 mb-6 md:mb-8 transition-all duration-1000 delay-700 transform ${
               isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'
