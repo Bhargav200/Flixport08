@@ -126,10 +126,10 @@ const About = () => {
           <section>
             <h2 className="text-3xl font-bold text-white mb-6">About Me</h2>   
             <p className="leading-relaxed text-lg">
-              I'm a passionate **AI/ML Engineer**and **MERN Stack Developer** with a strong command of **AI tools, machine learning frameworks, and modern web technologies**. 
-              Passionate about **AI, FinTech, and full-stack development**, I specialize in building innovative, scalable solutions that drive impact. 
-              With hands-on experience in **AI/ML frameworks**, I bring a unique blend of technical expertise and problem-solving creativity.
-              As a **"Vibe Coder,"** I thrive in dynamic environments, quickly adapting to new challenges while continuously pushing the boundaries of technology.
+              I'm a passionate AI/ML Engineer and MERN Stack Developer with a strong command of AI tools, machine learning frameworks, and modern web technologies. 
+              Passionate about AI, FinTech, and full-stack development, I specialize in building innovative, scalable solutions that drive impact. 
+              With hands-on experience in AI/ML frameworks, I bring a unique blend of technical expertise and problem-solving creativity.
+              As a Vibe Coder, I thrive in dynamic environments, quickly adapting to new challenges while continuously pushing the boundaries of technology.
             </p>
           </section>
 
