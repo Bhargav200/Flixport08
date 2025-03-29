@@ -9,8 +9,8 @@ const Home = () => {
   const skills = [
     'AI & ML Engineer',
     'AI Generalist',
-    'Vibe coder',
     'MERN Stack Developer',
+    'Vibe coder',
   ];
 
   const [isLoaded, setIsLoaded] = useState(false);
