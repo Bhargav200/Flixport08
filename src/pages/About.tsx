@@ -124,11 +124,12 @@ const About = () => {
 
         <div className="space-y-12 text-gray-300">
           <section>
-            <h2 className="text-3xl font-bold text-white mb-6">About Me</h2>
+            <h2 className="text-3xl font-bold text-white mb-6">About Me</h2>   
             <p className="leading-relaxed text-lg">
-              I'm a passionate full-stack developer and machine learning engineer with 5 years of experience.
-              I specialize in building scalable web applications and implementing AI solutions.
-              My expertise spans across modern web technologies, cloud platforms, and machine learning frameworks.
+              I'm a passionate **AI/ML Engineer**and **MERN Stack Developer** with a strong command of **AI tools, machine learning frameworks, and modern web technologies**. 
+              Passionate about **AI, FinTech, and full-stack development**, I specialize in building innovative, scalable solutions that drive impact. 
+              With hands-on experience in **AI/ML frameworks**, I bring a unique blend of technical expertise and problem-solving creativity.
+              As a **"Vibe Coder,"** I thrive in dynamic environments, quickly adapting to new challenges while continuously pushing the boundaries of technology.
             </p>
           </section>
 
@@ -143,17 +144,19 @@ const About = () => {
           </section>
 
           <section>
-            <h2 className="text-3xl font-bold text-white mb-6">Experience</h2>
+            <h2 className="text-3xl font-bold text-white mb-6">Intern Experience</h2>
             <div className="space-y-8">
               <div>
-                <h3 className="text-xl font-semibold text-white">Senior Full Stack Developer @ Tech Corp</h3>
-                <p className="text-gray-400">2020 - Present</p>
-                <p className="mt-2">Led development of multiple high-impact projects and mentored junior developers.</p>
+                 <h3 className="text-xl font-semibold text-white">Machine Learning Engineer Intern @ Devtern</h3>
+                <p className="text-gray-400">May'23 - Jun'23</p>
+                <p className="mt-2">Participated in Devtern's Internship Program, focusing on AI & Machine Learning, and Its frameworks.</p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-white">ML Engineer @ AI Solutions</h3>
-                <p className="text-gray-400">2018 - 2020</p>
-                <p className="mt-2">Developed and deployed machine learning models for production environments.</p>
+               <h3 className="text-xl font-semibold text-white">MERN Stack Intern @ Webstack Academy (WSA)</h3>
+                <p className="text-gray-400">Aug'23 - Dec'2023</p>
+                <p className="mt-2">Developed a full-stack restaurant website, including a secure payment page, using MongoDB, Express.js, React.js, and Node.js.</p>
+                <p className="mt-2"> Implemented responsive UI, authentication, and real-time order tracking to enhance user experience.</p>
+                <p className="mt-2"> Engaged in developing full-stack applications using MongoDB, Express.js, React.js, and Node.js.</p>
               </div>
             </div>
           </section>
