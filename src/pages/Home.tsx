@@ -64,7 +64,7 @@ const Home = () => {
         
         <div className="absolute top-1/2 transform -translate-y-1/2 px-4 md:px-16 w-full">
           <div className="max-w-xl mx-auto md:mx-0">
-            <h1 className={`text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 md:mb-6 transition-all duration-1000 delay-500 transform ${
+            <h1 className={`text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-4 md:mb-6 transition-all duration-1000 delay-500 transform ${
               isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'
             }`}>
               Hi, I'm{' '}
