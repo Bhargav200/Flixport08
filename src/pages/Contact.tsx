@@ -28,9 +28,13 @@ const Contact = () => {
 
       setStatus('success');
       setFormData({ name: '', email: '', message: '' });
-    } catch (error) {
+    } catch (error: unknown) {
       setStatus('error');
-      setErrorMessage(error.message);
+      if (error instanceof Error) {
+        setErrorMessage(error.message);
+      } else {
+        setErrorMessage('An unknown error occurred.');
+      }
     }
   };
 
@@ -41,6 +45,7 @@ const Contact = () => {
         
         <div className="grid md:grid-cols-2 gap-12">
           <div>
+            <img src="https://images.app.goo.gl/ENyHpUasevahSEJE6" alt="Contact Me GIF" className="mb-4" />
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-white mb-2">Name</label>
