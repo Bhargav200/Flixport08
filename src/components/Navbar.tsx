@@ -32,10 +32,8 @@ const Navbar = () => {
       <div className="px-4 md:px-16 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="relative z-50">
-            <img 
-              src="https://i.ibb.co/Qf7Yx0N/apbrt-logo.png" 
+             <img src="/logoB.png" alt="Logo" className="h-12 w-auto" />" 
               alt="APBRT Logo" 
-              className="h-8 w-auto"
             />
           </Link>
 
