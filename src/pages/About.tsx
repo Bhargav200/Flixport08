@@ -110,15 +110,24 @@ const About = () => {
               <FileText size={24} className="text-green-400" />
               <h2 className="text-xl font-semibold text-white">My Resume</h2>
             </div>
-            <a
-              href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition"
-            >
-              <ExternalLink size={20} />
-              <span>View Resume</span>
-            </a>
+            <div className="flex items-center gap-1"> {/* Reduced gap from 2 to 1 */}
+              <a
+                href="/RESUME NRLM.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition"
+              >
+                <ExternalLink size={20} />
+                <span>View Resume</span>
+              </a>
+              <a
+                href="/RESUME NRLM.pdf"
+                download
+                className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition"
+              >
+                <span>Download Resume</span>
+              </a>
+            </div>
           </div>
         </div>
 
