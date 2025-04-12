@@ -64,7 +64,7 @@ const Certificates = () => {
       date: "Jan 2024",
       image: "https://futureteknow.com/wp-content/uploads/2025/01/CrewAI-futureTEKnow.jpg"
       link: "https://learn.deeplearning.ai/accomplishments/fc9db2e0-fa9f-4937-966a-0f5be5b6102f"
-    }
+    },
   ];
 
   return (
