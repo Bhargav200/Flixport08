@@ -29,12 +29,10 @@ const Navbar = () => {
     <nav className={`fixed w-full z-50 transition-colors duration-300 ${
       isScrolled || isMenuOpen ? 'bg-black' : 'bg-gradient-to-b from-black to-transparent'
     }`}>
-      <div className="px-4 md:px-16 py-4">
+      <div className="px-4 md:px-8 py-2 md:py-4">
         <div className="flex items-center justify-between">
-          <Link to="/" className="relative z-50">
-             <img src="/logoB.png" alt="Logo" className="h-12 w-auto" />" 
-              alt="APBRT Logo" 
-            />
+          <Link to="/">
+            <img src="/logoB.png" alt="Logo" className="h-32 w-auto" />
           </Link>
 
           {/* Mobile menu button */}
@@ -47,7 +45,7 @@ const Navbar = () => {
           </button>
 
           {/* Desktop menu */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-4 md:gap-8">
             <NavLink to="/" current={location.pathname} />
             <NavLink to="/about" current={location.pathname} />
             <NavLink to="/certificates" current={location.pathname} />
@@ -66,6 +64,12 @@ const Navbar = () => {
             <NavLink to="/about" current={location.pathname} mobile />
             <NavLink to="/certificates" current={location.pathname} mobile />
             <NavLink to="/contact" current={location.pathname} mobile />
+            <Link
+              to="/resume"
+              className="text-white bg-green-400 px-4 py-2 rounded hover:bg-green-500 transition"
+            >
+              View Resume
+            </Link>
           </div>
         </div>
       </div>
