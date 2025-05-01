@@ -32,13 +32,13 @@ const Projects = () => {
     {
       title: "E-Commerce Platform",
       description: "A full-stack e-commerce solution with React and Node.js",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1470&q=80",
+      image: "https://plus.unsplash.com/premium_photo-1684179639963-e141ce2f8074?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fGVjb21tZXJjZXxlbnwwfHwwfHx8MA%3D%3D",
       tags: ["React", "Node.js", "MongoDB"]
     },
     {
       title: "Credit Scoring Model",
       description: "Developed a machine learning model to classify borrower risk using historical financial and behavioral data.",
-      image: "https://media.istockphoto.com/id/1126382415/photo/credit-score-concept-chart-with-keywords-and-icons-on-white-background.jpg?s=2048x2048&w=is&k=20&c=fKg2FRy3dedg7yB1W6MdamDoPWz-Pp-JRl3_1Lz_hpg=",
+      image: "https://www.livemint.com/lm-img/img/2025/02/10/600x338/3-0-103769024-iStock-1200726951-0_1679850499811_1739172730242.jpg",
       tags: ["Python", "Scikit-learn", "Pandas"]
     },
     {
@@ -50,7 +50,7 @@ const Projects = () => {
     {
       title: "Real-Time Stock Market Sentiment Analyzer",
       description: "Created a cloud-integrated dashboard that performs real-time sentiment analysis on tweets and news about top companies using HuggingFace Transformers.",
-      image: "https://unsplash.com/photos/a-pair-of-glasses-sitting-on-top-of-a-laptop-computer-fchVIvuMGBI",
+      image: "https://images.unsplash.com/photo-1640451859877-1374a1155215?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       tags: ["Tweepy", "NewsAPI", "HuggingFace", "MongoDB Atlas","Flask",]
     },
 
