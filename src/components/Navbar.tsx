@@ -32,7 +32,7 @@ const Navbar = () => {
       <div className="px-4 md:px-8 py-2 md:py-4">
         <div className="flex items-center justify-between">
           <Link to="/">
-            <img src="/logoB.png" alt="Logo" className="h-24 w-auto" />
+            <img src="/logoB.png" alt="Logo" className="h-23 w-auto" />
           </Link>
 
           {/* Mobile menu button */}
