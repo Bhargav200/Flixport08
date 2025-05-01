@@ -36,17 +36,24 @@ const Projects = () => {
       tags: ["React", "Node.js", "MongoDB"]
     },
     {
-      title: "Social Media App",
-      description: "Real-time social platform with modern features",
-      image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1474&q=80",
-      tags: ["React", "Firebase", "Tailwind"]
+      title: "Credit Scoring Model-BasedcMachine Learning",
+      description: "Developed a machine learning model to classify borrower risk using historical financial and behavioral data.",
+      image: "https://www.istockphoto.com/photo/credit-score-rating-based-on-debt-reports-showing-creditworthiness-or-risk-of-gm1200726951-344049468?utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcredit-scoring&utm_medium=affiliate&utm_source=unsplash&utm_term=credit+scoring%3A%3A%3A",
+      tags: ["Python", "Scikit-learn", "Pandas"]
     },
     {
-      title: "AI Dashboard",
-      description: "Analytics dashboard with AI-powered insights",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1470&q=80",
-      tags: ["Next.js", "Python", "TensorFlow"]
-    }
+      title: "AI Powered Email Summarizer and Classifier",
+      description: "Built a personal AI assistant using OpenAI and the Gmail API to fetch, classify (e.g., Work, Promotions) and summarize emails.",
+      image: "https://www.google.com/imgres?q=AI-Powered-Email-Summarizer-and-Classifier&imgurl=https%3A%2F%2Fstorage.googleapis.com%2Fgweb-uniblog-publish-prod%2Fimages%2Fgmail_powered_by_ai_hero.width-1300.jpg&imgrefurl=https%3A%2F%2Fblog.google%2Fproducts%2Fgmail%2Fgmail-ai-features%2F&docid=JtwtLxuF0mnDHM&tbnid=lzXOOlHg8Pr5FM&vet=12ahUKEwi21PmCoIKNAxU9yzgGHfNSKzEQM3oECBYQAA..i&w=1300&h=541&hcb=2&ved=2ahUKEwi21PmCoIKNAxU9yzgGHfNSKzEQM3oECBYQAA",
+      tags: ["Python", "OpenAI API", "Gmail API", "MongoDB", "Streamlit", "OAuth2"]
+    },
+    {
+      title: "Real-Time Stock Market Sentiment Analyzer",
+      description: "Created a cloud-integrated dashboard that performs real-time sentiment analysis on tweets and news about top companies using HuggingFace Transformers.",
+      image: "https://unsplash.com/photos/a-pair-of-glasses-sitting-on-top-of-a-laptop-computer-fchVIvuMGBI",
+      tags: ["Python", "Tweepy", "NewsAPI", "HuggingFace", "MongoDB Atlas", "Flask", "Streamlit"]
+    },
+
   ];
 
   return (
