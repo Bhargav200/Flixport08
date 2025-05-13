@@ -167,6 +167,13 @@ const About = () => {
                 <p className="mt-2"> Implemented responsive UI, authentication, and real-time order tracking to enhance user experience.</p>
                 <p className="mt-2"> Engaged in developing full-stack applications using MongoDB, Express.js, React.js, and Node.js.</p>
               </div>
+              <div>
+                 <h3 className="text-xl font-semibold text-white">MERN Stack Intern @ Webstack Academy (WSA)</h3>
+                <p className="text-gray-400">Aug'23 - Dec'2023</p>
+                <p className="mt-2">Developed a full-stack restaurant website, including a secure payment page, using MongoDB, Express.js, React.js, and Node.js.</p>
+                <p className="mt-2"> Implemented responsive UI, authentication, and real-time order tracking to enhance user experience.</p>
+                <p className="mt-2"> Engaged in developing full-stack applications using MongoDB, Express.js, React.js, and Node.js.</p>
+              </div>
             </div>
           </section>
         </div>
